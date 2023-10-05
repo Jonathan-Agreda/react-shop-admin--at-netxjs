@@ -18,4 +18,5 @@ module.exports = {
       purple: colors.violet, */
     },
   },
+  plugins: [require('@tailwindcss/forms')],
 };
