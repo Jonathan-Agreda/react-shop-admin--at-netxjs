@@ -35,7 +35,7 @@ function useProvideAuth() {
     }
   };
 
-  const logout = ()=> {
+  const logout = () => {
     Cookies.remove('token');
     setUser(null);
     delete axios.defaults.headers.Authorization;
